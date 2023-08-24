@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CUMBRA</title><!-- TITULO PESTAÑA -->
+	<h1>PROYECTO: PASARELAS - LINEA 1 DEL METRO DE LIMA</h1><!-- TITULO MAPA -->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   		integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   		crossorigin=""/> <!-- De la pagina de Leaflet, para CSS -->	
+	<link rel="stylesheet" type="text/css" href="mapa.css"/><!-- Vincular con archivo CSS -->	
+
+	<select name="select-location" id="select-location">
+		<option value="-1">Seleccione pasarela:</option>
+		<option value="-12.213166,-76.929852">Pasarela N°01</option>
+		<option value="-12.204832,-76.934834">Pasarela N°02</option>	
+		<option value="-12.201285,-76.936964">Pasarela N°03</option>
+		<option value="-12.198629,-76.938550">Pasarela N°04</option>
+		<option value="-12.193899,-76.941404">Pasarela N°05</option>
+		<option value="-12.190560,-76.943363">Pasarela N°06</option>
+		<option value="-12.181121,-76.947074">Pasarela N°07</option>
+		<option value="-12.181121,-76.410226">Pasarela N°08</option>		
+		<option value="-12.178745,-76.947732">Pasarela N°09</option>		
+		<option value="-12.177853,-76.948220">Pasarela N°10</option>			
+	</select>
+
+	<div id="map"></div> <!-- Crar el DVI -->  
+</head>
+<body>	
+
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   		integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   		crossorigin=""></script> <!-- De la pagina de Leaflet, para JV -->  		
+	<script src="mapa.js"></script><!-- Vincular con archivo JV -->
+</body>
+</html>
