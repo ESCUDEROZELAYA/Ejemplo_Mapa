@@ -1,0 +1,15 @@
+#map {
+    height: 90vh;
+    width: 100hw;
+/* Esto es un comentario en CSS y se aplica a una sola línea */
+  }
+  h1{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+
+  select {
+    margin-bottom: 20px ;
+    margin-left: 20px;
+  }
